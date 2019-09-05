@@ -34,5 +34,9 @@ public class PackageService {
         }
         return packageDtos;
     }
+
+    public void updatePackage(Package packages) {
+        packageMapper.updatePackage(packages);
+    }
 }
 

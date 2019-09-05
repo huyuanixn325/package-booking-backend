@@ -11,4 +11,6 @@ public interface PackageMapper {
 
     void insertPackage(@Param("packages") Package packages);
     List<Package> selectPackages();
+
+    void updatePackage(@Param("packages") Package packages);
 }
